@@ -1,0 +1,186 @@
+{
+ "_comment": "Everything the release script knows about the mods. The Wrench Works rename is an edit to this file only: ids, zip names, folders and info paths.",
+ "out": "C:/Dev/SLRR BeamNG Graph/dist",
+ "bundle": "wrench_works_all_in_one.zip",
+ "exclude_all": [
+  "graphify-out/**",
+  "tests/**",
+  ".git/**",
+  ".gitignore",
+  "**/*.py",
+  "**/*.pyc",
+  "**/__pycache__/**",
+  "**/*.bak",
+  "**/*.orig",
+  "**/*.blend",
+  "**/*.blend1",
+  "**/Thumbs.db",
+  "**/desktop.ini",
+  "**/*.log",
+  "**/.graphify_*"
+ ],
+ "merged": [
+  {
+   "id": "wrench_complete",
+   "zip": "wrench_complete.zip",
+   "from": ["wrench_works", "street_legal", "slrr_drivers", "slrr_injury", "car_surface_fx"],
+   "icon_from": "wrench_works",
+   "must_not_contain": ["levels/slrr_valo_city/", "ui/modModules/slHud/slrr/", "art/sound/slrr_garage/music/"],
+   "info": {
+    "name": "wrench_complete",
+    "title": "Wrench Complete",
+    "tagline": "The complete West Coast USA street racing career, garage and drivers in one mod",
+    "description": "Everything in one mod: a hands-on garage with a working lift, a street racing career from a junkyard wreck to the top of the ROC, drivers in every car with injuries in crashes, and rain, dirt and scratches on the car body. All settings are in ESC > Mods. Plays on West Coast USA. Remove the separate Wrench Works, Street Legal, Drivers and Car Surface FX mods before installing this one.",
+    "author": "Connor Moyle",
+    "version": "0.9.0",
+    "game_version": "0.39",
+    "category": "mods_of_mods"
+   }
+  }
+ ],
+ "mods": [
+  {
+   "id": "slrr_valo_city",
+   "title": "Wrench Works: Valo City",
+   "src": "C:/Dev/SLRR map for beam ng/mod",
+   "zip": "slrr_valo_city.zip",
+   "info": "mod_info/slrr_valo_city/info.json",
+   "versioncheck": true,
+   "requires": {},
+   "exclude": []
+  },
+  {
+   "id": "wrench_works",
+   "title": "Wrench Works: Garage",
+   "src": "C:/Dev/Beam NG SLRR MOD/mod",
+   "pin": "v1.8.1",
+   "zip": "wrench_works.zip",
+   "info": "mod_info/wrench_works/info.json",
+   "versioncheck": true,
+   "requires": {},
+   "_why_exclude": "the original game's sounds and music are not ours to hand out (same rule as tools/package.ps1)",
+   "exclude": [
+    "art/sound/slrr_garage/*.wav",
+    "art/sound/slrr_garage/music/**"
+   ]
+  },
+  {
+   "id": "street_legal",
+   "title": "Wrench Works: Career",
+   "src": "C:/Dev/BeamNG Street Legal/mod",
+   "pin": "v0.5.1",
+   "zip": "street_legal.zip",
+   "info": "mod_info/street_legal/info.json",
+   "versioncheck": true,
+   "requires": {
+    "wrench_works": "1.8.0"
+   },
+   "_why_exclude": "SLRR's own art is copied from each player's install by tools/slrr_ui.py, never shipped",
+   "exclude": [
+    "ui/modModules/slHud/slrr/**",
+    "street_legal/wallpaper.ps1"
+   ]
+  },
+  {
+   "id": "slrr_drivers",
+   "title": "Wrench Works: Drivers & Pedestrians",
+   "src": "C:/Dev/SLRR Drivers/mod",
+   "pin": "v1.6.0",
+   "zip": "slrr_drivers.zip",
+   "info": "mod_info/slrr_drivers/info.json",
+   "versioncheck": true,
+   "requires": {},
+   "exclude": []
+  },
+  {
+   "id": "slrr_injury",
+   "title": "Wrench Works: Driver Injuries (add-on)",
+   "src": "C:/Dev/SLRR Drivers/addon_injury",
+   "pin": "v1.6.0",
+   "zip": "slrr_injury.zip",
+   "info": "mod_info/slrr_injury/info.json",
+   "versioncheck": true,
+   "requires": {
+    "slrr_drivers": "1.3.0"
+   },
+   "exclude": [
+    "*.md"
+   ]
+  },
+  {
+   "id": "car_surface_fx",
+   "title": "Car Surface FX",
+   "src": "C:/Dev/BeamNG Car Surface FX/mod",
+   "pin": "v0.3.0",
+   "zip": "car_surface_fx.zip",
+   "info": "mod_info/carSurfaceFx/info.json",
+   "versioncheck": false,
+   "requires": {},
+   "_why": "works standalone (rain, dirt and scratches on any car); Street Legal and the garage use it when it is installed (sl_surfacefx), nothing needs it",
+   "exclude": []
+  },
+  {
+   "id": "dirtSkidMarks",
+   "title": "Enhanced Skid Marks (Surface FX)",
+   "src": "C:/Dev/Enhanced Skid Marks",
+   "zip": "dirtSkidMarks.zip",
+   "info": "mod.json",
+   "versioncheck": false,
+   "requires": {},
+   "exclude": [
+    "ROADMAP.md",
+    "MODDER_API.md.bak"
+   ]
+  }
+ ],
+ "bundles": [
+  {
+   "id": "west_coast",
+   "title": "Wrench Works Street Legal - West Coast",
+   "zip": "wrench_works_street_legal_west_coast.zip",
+   "_why": "One download for the West Coast USA career: the garage, the career (the part pictures are in its art folder) Drivers & Pedestrians and Car Surface FX (rain, dirt and scratches on the cars; optional, nothing needs it). No Valo City map. Each mod keeps its own version and requires; the versions are listed in bundle.json.",
+   "mods": [
+    "wrench_works",
+    "street_legal",
+    "slrr_drivers",
+    "slrr_injury",
+    "car_surface_fx"
+   ],
+   "readmes": {
+    "wrench_works": "C:/Dev/Beam NG SLRR MOD/README.md",
+    "street_legal": "C:/Dev/BeamNG Street Legal/README.md",
+    "slrr_drivers": "C:/Dev/SLRR Drivers/README.md",
+    "car_surface_fx": "C:/Dev/BeamNG Car Surface FX/README.md"
+   },
+   "version_from": "street_legal",
+   "must_not_contain": [
+    "levels/slrr_valo_city/",
+    "ui/modModules/slHud/slrr/",
+    "art/sound/slrr_garage/music/"
+   ]
+  },
+  {
+   "id": "west_coast_no_csfx",
+   "title": "Wrench Works Street Legal - West Coast (without Car Surface FX)",
+   "zip": "wrench_works_street_legal_west_coast_no_csfx.zip",
+   "_why": "The same download without Car Surface FX (not published yet): the garage, the career, Drivers & Pedestrians and Driver Injuries.",
+   "mods": [
+    "wrench_works",
+    "street_legal",
+    "slrr_drivers",
+    "slrr_injury"
+   ],
+   "readmes": {
+    "wrench_works": "C:/Dev/Beam NG SLRR MOD/README.md",
+    "street_legal": "C:/Dev/BeamNG Street Legal/README.md",
+    "slrr_drivers": "C:/Dev/SLRR Drivers/README.md"
+   },
+   "version_from": "street_legal",
+   "must_not_contain": [
+    "levels/slrr_valo_city/",
+    "ui/modModules/slHud/slrr/",
+    "art/sound/slrr_garage/music/"
+   ]
+  }
+ ]
+}
