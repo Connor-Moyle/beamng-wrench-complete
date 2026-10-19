@@ -6,7 +6,7 @@ lualib.luaL_openlibs(L);
 const dir = path.join(__dirname, '..', 'mod', 'lua', 'ge', 'extensions').split(path.sep).join('/');
 const code = `
 package.path = '${dir}/?.lua;' .. package.path
-local G = require('wc_guard')
+local G = require('wc/guard')
 local function has(set) return function(p) return set[p] == true end end
 assert(#G.duplicates(has({})) == 0, 'nothing separate: no warning')
 local d = G.duplicates(has({ ['/mod_info/wrench_works/info.json'] = true, ['/mod_info/carSurfaceFx/info.json'] = true, ['/mod_info/wrench_complete/info.json'] = true }))
@@ -21,10 +21,10 @@ G.onExtensionLoaded()
 assert(#logged == 1 and shownCount == 0, 'at load: the log line only')
 G.onClientPostStartMission() G.onClientPostStartMission()
 assert(#logged == 1 and shownCount == 1, 'the message once at level start, the log line not repeated')
-local G2 = package.loaded.wc_guard
+local G2 = package.loaded['wc/guard']
 FS = { fileExists = function() error('boom') end }
-package.loaded.wc_guard = nil
-local G3 = require('wc_guard')
+package.loaded['wc/guard'] = nil
+local G3 = require('wc/guard')
 assert(pcall(G3.onClientPostStartMission), 'an error inside never escapes')
 return 'ok'
 `;
