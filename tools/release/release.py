@@ -127,19 +127,28 @@ def build_merged(m, cfg, out):
                     continue
                 owner[f] = (i, e)
                 counts[i] = counts.get(i, 0) + 1
+        extras = {}                       # the merged mod's own files (its guard script), from m['extra']; mod_info is generated, not copied
+        for full, rel in files_of(m['extra'], cfg['exclude_all']) if m.get('extra') else []:
+            if rel.startswith('mod_info/'):
+                continue
+            if rel in owner:
+                collisions.append(f"{rel}: the merged mod's own file and {owner[rel][0]} both ship it")
+            extras[rel] = full
         if collisions:
             raise SystemExit(f"{m['id']}: path collisions between the mods:" + chr(10) + chr(10).join(collisions))
         zpath = os.path.join(out, m['zip'])
         with zipfile.ZipFile(zpath + '.part', 'w', zipfile.ZIP_DEFLATED, compresslevel=6) as z:
             info = dict(m['info'])
             z.writestr(f"mod_info/{info['name']}/info.json", json.dumps(info, indent=2))
+            for rel, full in sorted(extras.items()):
+                z.write(full, rel)
             for f, (i, e) in sorted(owner.items()):
                 z.writestr(f if f != icon_path else f"mod_info/{info['name']}/icon.jpg", zips[i].read(f),
                            zipfile.ZIP_STORED if f.lower().endswith(STORED) else zipfile.ZIP_DEFLATED)
         for z in zips.values():
             z.close()
     os.replace(zpath + '.part', zpath)
-    n = len(owner) + 1
+    n = len(owner) + len(extras) + 1
     print(f"{m['zip']}: {info['version']}, {n} files from {counts}, {os.path.getsize(zpath) / 1e6:.1f} MB")
     r = subprocess.run([sys.executable, os.path.join(HERE, 'clean_install_test.py'), '--single', zpath], capture_output=True, text=True)
     print(r.stdout.strip())

@@ -19,7 +19,7 @@ A complete street racing career for West Coast USA, in one mod.
 You start on foot with a few thousand dollars and no car. Buy a wreck, take it apart and build it back in a real garage, earn money by day, race the streets by night and work your way up to the top of the ROC. A driver sits in every car, rain makes the road wet, and your cars get dirty.
 
 [IMG]docs/screenshots/01_rain_wet_paint.jpg[/IMG]
-[IMG]docs/screenshots/10_driver_hands_cockpit.jpg[/IMG]
+[IMG]docs/screenshots/09_driver_hands_cockpit.jpg[/IMG]
 
 [SIZE=4][B]Features[/B][/SIZE]
 [B]Garage[/B]
@@ -45,7 +45,8 @@ You start on foot with a few thousand dollars and no car. Buy a wreck, take it a
 [B]Weather and cars[/B]
 [LIST]
 [*]Wet, glossy roads in the rain, puddles and wheel spray
-[*]Dirty paint, drops on the glass, snow, frost, bugs and scratches
+[*]Wet paint with water beads and rain on the windscreen, oil and coolant leaks
+[*]Optional, off by default and in testing: drops on the windows, snow, frost, bugs, road spray, ruts, grass and crash effects
 [/LIST]
 [B]Settings[/B]
 [LIST]
@@ -70,6 +71,7 @@ You start on foot with a few thousand dollars and no car. Buy a wreck, take it a
 [LIST]
 [*]Plays on West Coast USA only
 [*]Some features have had little play in the game yet: night race variety, auctions, rivals and the campaign end, the phone camera and gallery, the Look and cinematic camera graphics options. Please report anything odd
+[*]The optional car surface effects above are not proven in the game yet; the dirt and mud look is still being improved
 [*]Heavy rain with many puddles costs frames: lower [I]Puddles in the rain[/I] or use the Performance preset
 [/LIST]
 

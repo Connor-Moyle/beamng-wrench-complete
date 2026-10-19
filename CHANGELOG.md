@@ -9,11 +9,6 @@ A pre-release for bug-checking. Version 1.0.0 follows after testing.
 - Remove the separate Wrench Works, Street Legal, Drivers & Pedestrians, Driver Injuries and Car Surface FX mods before installing: two copies clash.
 - All settings are on one screen, **ESC > Mods**.
 
-The details of each part are in its own changelog:
-
-- Wrench Works (garage) 1.8.1
-- Street Legal (career) 0.5.1: fixes an error on the big map, and a placeholder that showed in part names in the Part market
-- Drivers & Pedestrians 1.6.0, Driver Injuries 0.2.0
-- Car Surface FX 0.3.0
+Included parts: Wrench Works (garage) 1.8.1, Street Legal (career) 0.5.1, Drivers & Pedestrians 1.6.0, Driver Injuries 0.2.0, Car Surface FX 0.3.0. Street Legal 0.5.1 fixes an error on the big map and a placeholder that showed in part names in the Part market.
 
 Features that were built with offline tests and have had little play in the game yet are listed under **Known issues** in the README.

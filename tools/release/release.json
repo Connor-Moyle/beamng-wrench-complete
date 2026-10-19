@@ -25,6 +25,7 @@
    "zip": "wrench_complete.zip",
    "from": ["wrench_works", "street_legal", "slrr_drivers", "slrr_injury", "car_surface_fx"],
    "icon_from": "wrench_works",
+   "extra": "C:/Dev/beamng-wrench-complete/mod",
    "must_not_contain": ["levels/slrr_valo_city/", "ui/modModules/slHud/slrr/", "art/sound/slrr_garage/music/"],
    "info": {
     "name": "wrench_complete",

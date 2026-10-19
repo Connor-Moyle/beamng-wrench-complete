@@ -17,43 +17,43 @@ Wrench Complete is the whole **Wrench** family in a single download: the garage,
 ![Water beads up close](docs/screenshots/02_rain_beads_close.jpg)
 *Water beads up close*
 
-![Wet trim and glass](docs/screenshots/03_rain_wet_trim.jpg)
-*Wet trim and glass*
+![Wet paint and trim](docs/screenshots/03_rain_wet_trim.jpg)
+*Wet paint and trim*
 
 ![Rain on the windscreen from the driver's seat](docs/screenshots/04_rain_windscreen_driver_view.jpg)
 *Rain on the windscreen from the driver's seat*
 
-![The same road dry and wet](docs/screenshots/06_wet_roads_dry_vs_wet.jpg)
+![The same road dry and wet](docs/screenshots/05_wet_roads_dry_vs_wet.jpg)
 *The same road dry and wet*
 
-![Puddles on the road](docs/screenshots/07_puddles.jpg)
+![Puddles on the road](docs/screenshots/06_puddles.jpg)
 *Puddles on the road*
 
-![An oil leak with a rainbow sheen](docs/screenshots/08_oil_leak_sheen.jpg)
+![An oil leak with a rainbow sheen](docs/screenshots/07_oil_leak_sheen.jpg)
 *An oil leak with a rainbow sheen*
 
-![A coolant leak](docs/screenshots/09_coolant_leak.jpg)
+![A coolant leak](docs/screenshots/08_coolant_leak.jpg)
 *A coolant leak*
 
-![The driver's hands on the wheel](docs/screenshots/10_driver_hands_cockpit.jpg)
+![The driver's hands on the wheel](docs/screenshots/09_driver_hands_cockpit.jpg)
 *The driver's hands on the wheel*
 
-![The driver seen from outside](docs/screenshots/11_driver_outside.jpg)
+![The driver seen from outside](docs/screenshots/10_driver_outside.jpg)
 *The driver seen from outside*
 
-![The big map with the places](docs/screenshots/12_big_map.jpg)
+![The big map with the places](docs/screenshots/11_big_map.jpg)
 *The big map with the places*
 
-![A place on the big map](docs/screenshots/13_big_map_card.jpg)
+![A place on the big map](docs/screenshots/12_big_map_card.jpg)
 *A place on the big map*
 
-![The phone's apps](docs/screenshots/14_phone_apps.jpg)
+![The phone's apps](docs/screenshots/13_phone_apps.jpg)
 *The phone's apps*
 
-![The Mods menu (ESC > Mods)](docs/screenshots/15_mods_menu.jpg)
+![The Mods menu (ESC > Mods)](docs/screenshots/14_mods_menu.jpg)
 *The Mods menu (ESC > Mods)*
 
-![Light, medium and heavy rain skies](docs/screenshots/16_rain_sky_levels.jpg)
+![Light, medium and heavy rain skies](docs/screenshots/15_rain_sky_levels.jpg)
 *Light, medium and heavy rain skies*
 
 ## What is in it
@@ -77,7 +77,9 @@ Wrench Complete is the whole **Wrench** family in a single download: the garage,
 
 **Weather and cars**
 - Rain makes the road, walls and paving dark and glossy. Puddles form and the wheels throw spray.
-- Wet paint, drops on the windows, dirt, mud, snow, frost, bugs and scratches stay on your car until you wash it.
+- Wet paint with beads of water, on every car, and rain on the windscreen from the driver's seat.
+- Oil and coolant leaks leave puddles with a rainbow sheen.
+- Optional, off by default and still in testing (switch them on in ESC > Mods > Car Surface FX): drops on the other windows, snow, frost, bugs, road spray, ruts in soft ground, grass, and crash effects (glass, pieces, sparks).
 
 **Settings**
 - Everything is in one place: **ESC > Mods**. Every page has a reset button and a search.
@@ -88,6 +90,7 @@ Wrench Complete is the whole **Wrench** family in a single download: the garage,
 1. Download `wrench_complete.zip`.
 2. Copy the zip, without unzipping it, into your BeamNG mods folder: `%LOCALAPPDATA%\BeamNG\BeamNG.drive\current\mods`.
 3. **Remove the separate Wrench Works, Street Legal, Drivers & Pedestrians, Driver Injuries and Car Surface FX mods** if you have them. Wrench Complete already contains them, and two copies clash.
+   If a separate copy is still there, Wrench Complete shows a message when a level loads (and writes it to the log) telling you which ones to remove.
 4. Start BeamNG.drive. On the main menu, choose **Career**, then **Wrench Complete**, **New career** and **West Coast USA**.
 
 ## Requirements
@@ -121,6 +124,7 @@ The full guide is in the game: the phone's **Help** app.
 - Wrench Complete plays on West Coast USA. The Valo City map is not part of it.
 - Some features were built with offline tests and have had little play in the game yet: night race variety, the rigged driver as the default for your own car, car auctions, the phone's camera and gallery, rivals and the campaign end, and the Look and cinematic camera graphics options. Report anything that looks wrong.
 - The Mods menu help panel scrolls, but scrolling with a real mouse wheel has not been tried by a person yet.
+- The optional car surface effects (drops on the windows, snow, frost, bugs, road spray, ruts, grass and crash effects) are off by default and have not been proven in the game yet. The dirt and mud look is still being improved.
 - Heavy rain with 300 puddles is demanding. Lower **Puddles in the rain** or use the **Performance** preset.
 
 ## Credits
