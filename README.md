@@ -93,6 +93,8 @@ Wrench Complete is the whole **Wrench** family in a single download: the garage,
    If a separate copy is still there, Wrench Complete shows a message when a level loads (and writes it to the log) telling you which ones to remove.
 4. Start BeamNG.drive. On the main menu, choose **Career**. The right-hand panel, **Wrench Works: Street Legal** (the career part of Wrench Complete keeps that name), lists your career slots: start a new career in a free slot and choose **West Coast USA**. The game's own career is the left-hand panel; leave it alone.
 
+   **After a BeamNG update** the game turns all mods off (its `disableModsAfterUpdate` setting). Re-enable Wrench Complete in the Mods manager.
+
 ## Requirements
 
 - BeamNG.drive 0.39 and the map **West Coast USA** (it comes with the game).

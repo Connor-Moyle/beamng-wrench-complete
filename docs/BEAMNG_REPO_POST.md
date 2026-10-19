@@ -59,6 +59,7 @@ You start on foot with a few thousand dollars and no car. Buy a wreck, take it a
 [*]Remove the separate Wrench Works, Street Legal, Drivers & Pedestrians, Driver Injuries and Car Surface FX mods if you have them
 [*]Start the game: Career > Wrench Complete > New career > West Coast USA
 [/LIST]
+After a BeamNG update the game turns all mods off (its disableModsAfterUpdate setting). Re-enable Wrench Complete in the Mods manager.
 
 [SIZE=4][B]Requirements[/B][/SIZE]
 [LIST]
