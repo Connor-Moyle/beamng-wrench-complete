@@ -1,5 +1,12 @@
 # Changelog: Wrench Complete
 
+## 0.9.2: Street Legal 0.5.2 (rain crash fix)
+
+- **Crash fix:** on BeamNG 0.40, Street Legal's rain could crash the graphics driver when the wet world and puddles updated at the same time. They now take turns, and the wet world changes fewer materials per second. In our tests this stopped the crash; tell us if you still see one in heavy rain.
+- Wet tarmac (the darker road surface in rain) is now off by default and switched off once for everyone. Turn it back on in Mods > Street Legal.
+- In a sudden downpour, puddles now appear gradually over the first half minute.
+- Everything else is unchanged from 0.9.1.
+
 ## 0.9.1: Wrench Works 1.8.2, for BeamNG 0.40
 
 - Works with BeamNG 0.40. After a BeamNG update the game turns all mods off (its `disableModsAfterUpdate` setting): re-enable Wrench Complete in the Mods manager.
