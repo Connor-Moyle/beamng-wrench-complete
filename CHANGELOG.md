@@ -2,8 +2,8 @@
 
 ## 0.9.2: Street Legal 0.5.2 (rain crash fix)
 
-- **Crash fix:** on BeamNG 0.40, Street Legal's rain could crash the graphics driver when the wet world and puddles updated at the same time. They now take turns, and the wet world changes fewer materials per second. In our tests this stopped the crash; tell us if you still see one in heavy rain.
-- Wet tarmac (the darker road surface in rain) is now off by default and switched off once for everyone. Turn it back on in Mods > Street Legal.
+- **Crash fix:** on BeamNG 0.40, Street Legal's rain could crash the graphics driver when the wet world and puddles updated at the same time. They now take turns, and the wet world changes fewer materials per second. In our tests, a heavy-rain run that crashed every time before ran 8 minutes without a crash; tell us if you still see one.
+- Wet tarmac (the darker road surface in rain) is now off by default and switched off once for everyone. Turn it back on in Mods > Street Legal. Turning it back on can still crash some graphics cards on 0.40.
 - In a sudden downpour, puddles now appear gradually over the first half minute.
 - Everything else is unchanged from 0.9.1.
 
