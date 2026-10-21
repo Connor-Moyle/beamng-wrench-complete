@@ -1,5 +1,12 @@
 # Changelog: Wrench Complete
 
+## 0.10.2: Car Surface FX 0.4.1 (the mud is right again)
+
+For BeamNG 0.40. Car Surface FX 0.4.1 is the only part that changed; Wrench Works 1.8.3, Street Legal 0.6.1, Drivers 1.6.1 and Driver Injuries 0.2.1 are as in 0.10.1. A pre-release for bug-checking.
+
+- **Mud thrown from the tyres on dry loose ground reads as mud again.** Car Surface FX 0.4.0 shipped a tighter height cut that left only an even tan sand film; 0.4.1 has the dark ragged patches back, heaviest on the lower doors, the rear arch and the rear bumper. Use 0.10.2 instead of 0.10.1 or 0.10.0.
+- Street Legal's known issue is unchanged: Wet roads and walls is off by default since 0.6.1; with it on, a heavy-rain crash can still happen at High graphics.
+
 ## 0.10.1: Street Legal 0.6.1 (wet roads and walls off by default)
 
 Hotfix for 0.10.0, for BeamNG 0.40. Street Legal 0.6.1 is the only part that changed; Wrench Works 1.8.3, Drivers 1.6.1, Driver Injuries 0.2.1 and Car Surface FX 0.4.0 are as in 0.10.0. A pre-release for bug-checking.
