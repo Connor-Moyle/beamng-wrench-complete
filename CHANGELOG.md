@@ -1,5 +1,14 @@
 # Changelog: Wrench Complete
 
+## 0.10.8: Car Surface FX 0.4.9, Part Wear 0.1.1, Drivers 1.6.3 and Driver Injuries 0.2.2
+
+For BeamNG 0.40. Wrench Works 1.8.6 and Street Legal 0.7.1 are as in 0.10.7. A pre-release for bug-checking.
+
+- **Car Surface FX 0.4.9:** snow on the sides of a parked car is a faint dusting of soft flecks (it was hard white blobs) with the thick cap still on the roof, and slush thrown from the wheels is pale and translucent (both seen in the game). Real wall hits leave chips, scratches and crack-like lines at the place of the hit on metal panels (seen in the game; Panel damage is off by default: Mods > Car Surface FX > Crash). The dent shading on metal is gone (it read as dark blotches; dents come from the game's own physics). Belt-worn tyres throw 2 to 6 sparks per tick, and our spark code was seen to fire and to stay off with its switch off. Built, not yet tested in the game: what the sparks look like, the rubber marbles after a real burnout, cracks on plastic, fibreglass and carbon from a real hit, a pole hit, a side window breaking on other cars, and skid marks on dirt, gravel and snow.
+- **Part Wear 0.1.1** (everything off by default: ESC > Mods > Part wear). Seen in the game: breakdowns (a shock absorber at 10 % blew after a roll, the engine at 14 % ran rough), worn paint through Car Surface FX (faded paint, grime, scuffs, rust spots), a worn clutch (a hard launch slips with it at 10 %), and a part swap in free roam sets back to new only the parts of the slot that changed. Rust on brake calipers and hubs changes the materials but nothing was visible. Built and tested offline only: the other breakdowns (soft brakes, a spring gone soft, the clutch's own message) and the finder fix for cars with 4-link front axles.
+- **Drivers 1.6.3 and Driver Injuries 0.2.2:** one start warning fewer ("set new global variable: slrrInjuryCaps"). Seen in the game: a cold start without it; with both legs broken the pedal cap stayed in place and a respawn cleared it. Not seen: the broken-arm steering cap. The Drivers mod itself is unchanged.
+- Known issues: Street Legal's Wet roads and walls is off by default; with it on, a heavy-rain crash can still happen at High graphics.
+
 ## 0.10.7: Wrench Works 1.8.6, Street Legal 0.7.1
 
 For BeamNG 0.40. Wrench Works 1.8.6 and Street Legal 0.7.1 are the parts that changed; Drivers 1.6.2, Driver Injuries 0.2.1, Car Surface FX 0.4.8 and Part Wear 0.1.0 are as in 0.10.6. A pre-release for bug-checking.
