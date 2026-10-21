@@ -1,5 +1,15 @@
 # Changelog: Wrench Complete
 
+## 0.10.4: Part Wear (new), Wrench Works 1.8.5, Drivers 1.6.2, Car Surface FX 0.4.4
+
+For BeamNG 0.40. Street Legal 0.6.1 and Driver Injuries 0.2.1 are as in 0.10.3. Remove the separate Wrench Works, Street Legal, Drivers, Driver Injuries, Car Surface FX and Part Wear mods before installing this one. A pre-release for bug-checking.
+
+- **New: Part Wear 0.1.0** (everything off by default; switch it on in ESC > Mods > Part wear). The parts of a car wear as you drive and a worn part changes the car. Seen in the game: worn brake pads brake later (about 1.5 times the stopping time with pads at 5 %), worn shock absorbers bounce more (4 bounces against 2), a worn engine is slower (7.8 s against 6.6 s from standstill to 20 m/s), worn metal and brake discs take rust and grime, wear stays with the car through a part swap, and the Wrench Works garage lists a worn part under Services with a price and repairs it. Built and tested offline only: springs, the clutch, breakdowns ("Parts can break"), the paint fade, and wear per career slot.
+- **Wrench Works 1.8.5:** the driver look, Driver mode and pedestrian options are set only on the Pedestrians & Drivers page now (Wrench Works kept a second copy, which is what reset the helmet earlier). The garage's Drivers panel saves your pick there, and "No driver" there means no driver by default. A garage visit the career refuses says why on screen (1.8.4). Seen in the game: the garage panel's pick and outfit stay for a newly spawned car. Not yet seen: a click on the helmet on the Drivers page staying after a restart.
+- **Drivers 1.6.2:** with Helmet on, the default drivers (Alison, Carla, Eric, Manuel) no longer get a pink "NO Mesh" label above the car (seen in the game); the helmet is added only to drivers whose model has one. Not yet checked: the helmet itself on the police officer and the racer.
+- **Car Surface FX 0.4.4:** slush on snowy ground is pale grey-white (it read tan before) and melting snow takes the snow off the car and holds (both seen in the game). Built, not yet tested in the game: the mud spray trails, the rubber heap, scuffs, grime on dark paint, panel damage from a real hit, and a window breaking on other cars.
+- Street Legal's known issue is unchanged: Wet roads and walls is off by default since 0.6.1; with it on, a heavy-rain crash can still happen at High graphics.
+
 ## 0.10.3: Car Surface FX 0.4.3
 
 For BeamNG 0.40. Car Surface FX 0.4.3 is the only part that changed; Wrench Works 1.8.3, Street Legal 0.6.1, Drivers 1.6.1 and Driver Injuries 0.2.1 are as in 0.10.2. A pre-release for bug-checking.

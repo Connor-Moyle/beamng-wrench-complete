@@ -7,6 +7,7 @@
   "tests/**",
   ".git/**",
   ".gitignore",
+  ".claude/**",
   "**/*.py",
   "**/*.pyc",
   "**/__pycache__/**",
@@ -23,7 +24,7 @@
   {
    "id": "wrench_complete",
    "zip": "wrench_complete.zip",
-   "from": ["wrench_works", "street_legal", "slrr_drivers", "slrr_injury", "car_surface_fx"],
+   "from": ["wrench_works", "street_legal", "slrr_drivers", "slrr_injury", "car_surface_fx", "part_wear"],
    "icon_from": "wrench_works",
    "extra": "C:/Dev/beamng-wrench-complete/mod",
    "must_not_contain": ["levels/slrr_valo_city/", "ui/modModules/slHud/slrr/", "art/sound/slrr_garage/music/"],
@@ -31,9 +32,9 @@
     "name": "wrench_complete",
     "title": "Wrench Complete",
     "tagline": "The complete West Coast USA street racing career, garage and drivers in one mod",
-    "description": "Everything in one mod: a hands-on garage with a working lift, a street racing career from a junkyard wreck to the top of the ROC, drivers in every car with injuries in crashes, and rain, dirt and scratches on the car body. All settings are in ESC > Mods. Plays on West Coast USA. Remove the separate Wrench Works, Street Legal, Drivers and Car Surface FX mods before installing this one.",
+    "description": "Everything in one mod: a hands-on garage with a working lift, a street racing career from a junkyard wreck to the top of the ROC, drivers in every car with injuries in crashes, rain, dirt and scratches on the car body, and parts that wear out (off until you switch it on). All settings are in ESC > Mods. Plays on West Coast USA. Remove the separate Wrench Works, Street Legal, Drivers, Car Surface FX and Part Wear mods before installing this one.",
     "author": "Connor Moyle",
-    "version": "0.10.3",
+    "version": "0.10.4",
     "game_version": "0.40",
     "category": "mods_of_mods"
    }
@@ -54,7 +55,7 @@
    "id": "wrench_works",
    "title": "Wrench Works: Garage",
    "src": "C:/Dev/Beam NG SLRR MOD/mod",
-   "pin": "v1.8.3",
+   "pin": "v1.8.5",
    "zip": "wrench_works.zip",
    "info": "mod_info/wrench_works/info.json",
    "versioncheck": true,
@@ -74,19 +75,21 @@
    "info": "mod_info/street_legal/info.json",
    "versioncheck": true,
    "requires": {
-    "wrench_works": "1.8.0"
+    "wrench_works": "1.8.3"
    },
    "_why_exclude": "SLRR's own art is copied from each player's install by tools/slrr_ui.py, never shipped",
    "exclude": [
     "ui/modModules/slHud/slrr/**",
     "street_legal/wallpaper.ps1"
-   ]
+   ],
+   "_modes_why": "billboards: atlas (the default) ships the ten full atlases; overlay (release.py --billboards overlay) ships only our own tiles, for the case the BeamNG moderators refuse atlases that carry the game own ads",
+   "modes": {"billboards": {"atlas": ["art/street_legal/billboards/tiles/*"], "overlay": ["art/street_legal/billboards/*.jpg"]}}
   },
   {
    "id": "slrr_drivers",
    "title": "Wrench Works: Drivers & Pedestrians",
    "src": "C:/Dev/SLRR Drivers/mod",
-   "pin": "v1.6.1",
+   "pin": "v1.6.2",
    "zip": "slrr_drivers.zip",
    "info": "mod_info/slrr_drivers/info.json",
    "versioncheck": true,
@@ -97,7 +100,7 @@
    "id": "slrr_injury",
    "title": "Wrench Works: Driver Injuries (add-on)",
    "src": "C:/Dev/SLRR Drivers/addon_injury",
-   "pin": "v1.6.1",
+   "pin": "v1.6.2",
    "zip": "slrr_injury.zip",
    "info": "mod_info/slrr_injury/info.json",
    "versioncheck": true,
@@ -112,12 +115,24 @@
    "id": "car_surface_fx",
    "title": "Car Surface FX",
    "src": "C:/Dev/BeamNG Car Surface FX/mod",
-   "pin": "v0.4.3",
+   "pin": "v0.4.4",
    "zip": "car_surface_fx.zip",
    "info": "mod_info/carSurfaceFx/info.json",
    "versioncheck": false,
    "requires": {},
    "_why": "works standalone (rain, dirt and scratches on any car); Street Legal and the garage use it when it is installed (sl_surfacefx), nothing needs it",
+   "exclude": []
+  },
+  {
+   "id": "part_wear",
+   "title": "Wrench Works: Part Wear",
+   "src": "C:/Dev/SLRR Part Wear/mod",
+   "pin": "v0.1.0",
+   "zip": "part_wear.zip",
+   "info": "mod_info/slrr_part_wear/info.json",
+   "versioncheck": false,
+   "requires": {},
+   "_why": "works with or without Wrench Works (the garage repair needs it) and the paint look needs Car Surface FX; everything is off until switched on in ESC > Mods > Part wear",
    "exclude": []
   },
   {

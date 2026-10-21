@@ -1,12 +1,12 @@
 # Wrench Complete
 
-Version 0.10.3, a pre-release for bug-checking. Works with BeamNG 0.40.
+Version 0.10.4, a pre-release for bug-checking. Works with BeamNG 0.40.
 
 A complete street racing career for BeamNG.drive on **West Coast USA**, in one mod.
 
 You start on foot with a few thousand dollars and no car. Buy a wreck, take it apart and build it back in a real garage, earn money by day, race the streets by night, and work your way up to the top of the ROC. A driver sits in every car, the rain makes the road wet, and your cars get dirty.
 
-Wrench Complete is the whole **Wrench** family in a single download: the garage, the career, the drivers and the weather effects. It is a tribute to how *Street Legal Racing: Redline* plays. Nothing from that game is included: the code is written for BeamNG, and the models and textures come from BeamNG.
+Wrench Complete is the whole **Wrench** family in a single download: the garage, the career, the drivers, the weather effects and parts that wear out. It is a tribute to how *Street Legal Racing: Redline* plays. Nothing from that game is included: the code is written for BeamNG, and the models and textures come from BeamNG.
 
 
 ## Screenshots
@@ -81,6 +81,9 @@ Wrench Complete is the whole **Wrench** family in a single download: the garage,
 - Oil and coolant leaks leave puddles with a rainbow sheen.
 - Optional, off by default and still in testing (switch them on in ESC > Mods > Car Surface FX): drops on the other windows, snow, frost, bugs, road spray, ruts in soft ground, grass, and crash effects (glass, pieces, sparks).
 
+**Part wear** (off by default: switch it on in ESC > Mods > Part wear)
+- The parts of your car wear as you drive: shock absorbers, brake pads and discs, engine and more. A worn part changes how the car drives and looks (worn pads brake later, worn shocks bounce, a tired engine is slower, rust on worn metal), and you repair or replace it in the garage for money.
+
 **Settings**
 - Everything is in one place: **ESC > Mods**. Every page has a reset button and a search.
 - Graphics options: anti-aliasing choices, sharpening, a colour look and a cinematic camera.
@@ -89,7 +92,7 @@ Wrench Complete is the whole **Wrench** family in a single download: the garage,
 
 1. Download `wrench_complete.zip`.
 2. Copy the zip, without unzipping it, into your BeamNG mods folder: `%LOCALAPPDATA%\BeamNG\BeamNG.drive\current\mods`.
-3. **Remove the separate Wrench Works, Street Legal, Drivers & Pedestrians, Driver Injuries and Car Surface FX mods** if you have them. Wrench Complete already contains them, and two copies clash.
+3. **Remove the separate Wrench Works, Street Legal, Drivers & Pedestrians, Driver Injuries, Car Surface FX and Part Wear mods** if you have them. Wrench Complete already contains them, and two copies clash.
    If a separate copy is still there, Wrench Complete shows a message when a level loads (and writes it to the log) telling you which ones to remove.
 4. Start BeamNG.drive. On the main menu, choose **Career**. The right-hand panel, **Wrench Works: Street Legal** (the career part of Wrench Complete keeps that name), lists your career slots: start a new career in a free slot and choose **West Coast USA**. The game's own career is the left-hand panel; leave it alone.
 
@@ -109,7 +112,7 @@ Open **ESC > Mods > Quick setup** and pick a preset: **Performance**, **Balanced
 
 ## Where the settings are
 
-**ESC > Mods** has a page for each part: the career, the garage, graphics and camera, drivers and pedestrians, and car surface effects. Switch on **Show advanced settings** on a page to see every option. The help for a setting shows in the panel on the right when you point at it.
+**ESC > Mods** has a page for each part: the career, the garage, graphics and camera, drivers and pedestrians, car surface effects and part wear. Switch on **Show advanced settings** on a page to see every option. The help for a setting shows in the panel on the right when you point at it.
 
 ## Your first hour
 
