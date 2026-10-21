@@ -1,5 +1,16 @@
 # Changelog: Wrench Complete
 
+## 0.10.3: Car Surface FX 0.4.3
+
+For BeamNG 0.40. Car Surface FX 0.4.3 is the only part that changed; Wrench Works 1.8.3, Street Legal 0.6.1, Drivers 1.6.1 and Driver Injuries 0.2.1 are as in 0.10.2. A pre-release for bug-checking.
+
+- **Leak pools follow the volume let out:** a punctured radiator leaves one pool about 0.65 m across instead of an 8 cm spot, and a parked oil leak is one puddle again, not two.
+- **Glass on asphalt** reads clearly, a **burnout** throws visible rubber chunks, and **snow** is lighter, with a clean white cap on the roof and boot lid.
+- **Worn paint** keeps its wear on a respawn with the same config without doubling it; the tyres read the water film in heavy rain.
+- **Built, not yet tested in the game** (see the Car Surface FX 0.4.3 notes): the rubber heap and the glow of hot rubber after a long burnout (the rubber marbles are off by default), the thin snow dusting on the sides, and the slush thrown from the wheels.
+- The full list, with what is proven in the game and what is only built, is in the Car Surface FX v0.4.3 release notes.
+- Street Legal's known issue is unchanged: Wet roads and walls is off by default since 0.6.1; with it on, a heavy-rain crash can still happen at High graphics.
+
 ## 0.10.2: Car Surface FX 0.4.1 (the mud is right again)
 
 For BeamNG 0.40. Car Surface FX 0.4.1 is the only part that changed; Wrench Works 1.8.3, Street Legal 0.6.1, Drivers 1.6.1 and Driver Injuries 0.2.1 are as in 0.10.1. A pre-release for bug-checking.
