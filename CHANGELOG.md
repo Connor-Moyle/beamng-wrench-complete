@@ -1,5 +1,15 @@
 # Changelog: Wrench Complete
 
+## 0.10.6: Street Legal 0.7.0, Car Surface FX 0.4.8
+
+For BeamNG 0.40. Street Legal 0.7.0 and Car Surface FX 0.4.8 are the parts that changed; Wrench Works 1.8.5, Drivers 1.6.2, Driver Injuries 0.2.1 and Part Wear 0.1.0 are as in 0.10.5. A pre-release for bug-checking.
+
+- **Street Legal 0.7.0: phone skins** (off by default: ESC > Mods > Street Legal > Screens and texts > Phone skin). Classic is the phone as it was; **Slate** is a modern look of our own, and you can add your own skins as folders in the user folder (see the Street Legal 0.7.0 notes). Seen in the game: both are listed, Slate shows on the phone and Classic is unchanged (an open phone changes the next time you open it).
+- **Street Legal 0.7.0: Street Legal in free roam** (all off by default: ESC > Mods > Street Legal > Free roam). A master switch and one switch per feature (phone with the Maps and Cab apps, maps, map pins, weather, cab, car wash, dashboard); no career is started or saved and no money is spent. The weather, dashboard, phone and Map app were seen working at Low graphics; the big-map pins were not drawn in the test. Also in 0.7.0: a garage visit the career refuses says why on screen, and a billboard fallback (off by default, not yet seen in the game).
+- **Car Surface FX 0.4.8:** every part has its own switch (Dust, Mud, Tyre rubber, Road grime, Tyre smoke, Sparks from belt-worn tyres) and a switched-off kind builds nothing (seen in the game); the Active features page lists the master switches of the test features. Belt-worn tyres keep their rubber tread (the game's metal flip had stopped the tyre force altogether), and the sparks come from our own code. The rubber heap lies between the rear wheels and stops near 400 g (seen with a test hook). Car Surface FX 0.4.6 and 0.4.7 are in it too (the ground marks cost less).
+- Built, not yet tested in the game: how the tyre sparks look, the marbles' glow and smear and a real burnout, the metal dent look on red and white paint, a pole hit, carbon and fibreglass panels, mud spray trails, scuffs, grime on dark paint, a window breaking on other cars, and skid marks on dirt, gravel and snow at the new distance.
+- Known issues: Street Legal's Wet roads and walls is off by default; with it on, a heavy-rain crash can still happen at High graphics. Street Legal prints one start warning about the drag extension's unload mode (harmless, fixed in the next Street Legal).
+
 ## 0.10.5: Car Surface FX 0.4.6 (the ground marks cost less)
 
 For BeamNG 0.40. Car Surface FX 0.4.6 is the only part that changed (it includes 0.4.5); Wrench Works 1.8.5, Street Legal 0.6.1, Drivers 1.6.2, Driver Injuries 0.2.1 and Part Wear 0.1.0 are as in 0.10.4. A pre-release for bug-checking.
