@@ -1,5 +1,13 @@
 # Changelog: Wrench Complete
 
+## 0.10.1: Street Legal 0.6.1 (wet roads and walls off by default)
+
+Hotfix for 0.10.0, for BeamNG 0.40. Street Legal 0.6.1 is the only part that changed; Wrench Works 1.8.3, Drivers 1.6.1, Driver Injuries 0.2.1 and Car Surface FX 0.4.0 are as in 0.10.0. A pre-release for bug-checking.
+
+- **Street Legal's "Wet roads and walls" is now off by default** and switched off once for everyone, because it is what crashes the graphics driver at High graphics in heavy rain on BeamNG 0.40. You can turn it back on in Mods > Street Legal (the row carries the warning).
+- **Known issue:** with Wet roads and walls on, a heavy-rain crash can still happen at High graphics. With it off it was not seen (a 10-minute High-graphics heavy-rain test with it off, and puddles on, did not crash).
+- Everything in the "not yet tested" list of 0.10.0 still applies.
+
 ## 0.10.0: Wrench Works 1.8.3, Street Legal 0.6.0, Drivers 1.6.1, Driver Injuries 0.2.1, Car Surface FX 0.4.0
 
 For BeamNG 0.40. Remove the separate mods before installing this one. All five parts are the released versions, built from their tags. A pre-release for bug-checking.
