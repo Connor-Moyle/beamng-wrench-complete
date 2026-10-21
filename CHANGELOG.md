@@ -1,5 +1,13 @@
 # Changelog: Wrench Complete
 
+## 0.10.9: Street Legal 0.7.2 (a freeze fixed), Car Surface FX 0.4.10
+
+For BeamNG 0.40. Street Legal 0.7.2 and Car Surface FX 0.4.10 are the parts that changed; Wrench Works 1.8.6, Drivers 1.6.3, Driver Injuries 0.2.2 and Part Wear 0.1.1 are as in 0.10.8. A pre-release for bug-checking. **Use 0.10.9 instead of 0.10.8 or earlier if you play with the police.**
+
+- **Street Legal 0.7.2: a spike strip no longer freezes the game.** At heat 3 and above, when a chase placed a spike strip ahead of you, the placing code failed every frame, filled the log with thousands of error lines and could hang the game (in Street Legal 0.7.0 and 0.7.1, so in Wrench Complete 0.10.0 to 0.10.8 too). Fixed, and the chase check now switches itself off for the session after five failures in a row. Seen fixed in the game on the same code: the strip was placed ahead and passed, a bust by spike strip worked, and the log did not fill with errors. Also fixed: a car delivered from a factory order could be built with no direction.
+- **Car Surface FX 0.4.10:** mostly fixes found in a code review. Seen in the game: dirt and sand skid marks and tracks are crisp at 5 m, two thin lines at 30 m and fade out by 55 m, with no gap behind the car. Built and tested offline, not seen in the game: a settings file that cannot be read is no longer overwritten with the defaults; one error in the update no longer switches the whole mod off (five in a row do, with a message); tyre numbers that are not numbers cannot reach the friction; Quick setup now moves the skid marks' draw distance (40, 60, 80, 100 m) and decal budget (100, 300, 500, 800); tyre sparks are thrown faster. The hooks Part Wear can use for pitted glass and worn wipers are in but nothing switches them on yet.
+- Known issues: Street Legal's Wet roads and walls is off by default; with it on, a heavy-rain crash can still happen at High graphics.
+
 ## 0.10.8: Car Surface FX 0.4.9, Part Wear 0.1.1, Drivers 1.6.3 and Driver Injuries 0.2.2
 
 For BeamNG 0.40. Wrench Works 1.8.6 and Street Legal 0.7.1 are as in 0.10.7. A pre-release for bug-checking.
