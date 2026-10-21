@@ -1,5 +1,12 @@
 # Changelog: Wrench Complete
 
+## 0.10.7: Wrench Works 1.8.6, Street Legal 0.7.1
+
+For BeamNG 0.40. Wrench Works 1.8.6 and Street Legal 0.7.1 are the parts that changed; Drivers 1.6.2, Driver Injuries 0.2.1, Car Surface FX 0.4.8 and Part Wear 0.1.0 are as in 0.10.6. A pre-release for bug-checking.
+
+- **Two start warnings fewer** in the game log: Street Legal 0.7.1 sets the drag extension's unload mode first (seen in the game: a cold start with the Street Legal 0.7.1 zip has no Street Legal warning or error), and Wrench Works 1.8.6 does the same for the pause menu's extension (tested offline; not yet seen in the game).
+- Nothing else changed in the mods. Known issues: Street Legal's Wet roads and walls is off by default; with it on, a heavy-rain crash can still happen at High graphics. The log still shows other mods' start warnings and a new-global warning from Driver Injuries (a fix is being tested), none of them from this pack's other parts.
+
 ## 0.10.6: Street Legal 0.7.0, Car Surface FX 0.4.8
 
 For BeamNG 0.40. Street Legal 0.7.0 and Car Surface FX 0.4.8 are the parts that changed; Wrench Works 1.8.5, Drivers 1.6.2, Driver Injuries 0.2.1 and Part Wear 0.1.0 are as in 0.10.5. A pre-release for bug-checking.
