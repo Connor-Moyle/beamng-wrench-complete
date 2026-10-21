@@ -34,7 +34,7 @@
     "tagline": "The complete West Coast USA street racing career, garage and drivers in one mod",
     "description": "Everything in one mod: a hands-on garage with a working lift, a street racing career from a junkyard wreck to the top of the ROC, drivers in every car with injuries in crashes, rain, dirt and scratches on the car body, and parts that wear out (off until you switch it on). All settings are in ESC > Mods. Plays on West Coast USA. Remove the separate Wrench Works, Street Legal, Drivers, Car Surface FX and Part Wear mods before installing this one.",
     "author": "Connor Moyle",
-    "version": "0.10.4",
+    "version": "0.10.5",
     "game_version": "0.40",
     "category": "mods_of_mods"
    }
@@ -115,7 +115,7 @@
    "id": "car_surface_fx",
    "title": "Car Surface FX",
    "src": "C:/Dev/BeamNG Car Surface FX/mod",
-   "pin": "v0.4.4",
+   "pin": "v0.4.6",
    "zip": "car_surface_fx.zip",
    "info": "mod_info/carSurfaceFx/info.json",
    "versioncheck": false,

@@ -1,5 +1,14 @@
 # Changelog: Wrench Complete
 
+## 0.10.5: Car Surface FX 0.4.6 (the ground marks cost less)
+
+For BeamNG 0.40. Car Surface FX 0.4.6 is the only part that changed (it includes 0.4.5); Wrench Works 1.8.5, Street Legal 0.6.1, Drivers 1.6.2, Driver Injuries 0.2.1 and Part Wear 0.1.0 are as in 0.10.4. A pre-release for bug-checking.
+
+- **The skid and track marks take less time every frame.** With the marks full, the frame time standing still was 2.30 ms against 1.06 ms with marks off, and is 1.67 ms now; driving was 1.59 ms and is 1.52 ms (seen in the game). Skid marks still look continuous at 0, 20, 40 and 55 m and fade out towards 60 m (asphalt only). At most 300 marks are drawn at once (it was 800) and the draw distance is 60 m (it was 100); a saved setting with the old numbers moves to the new ones once, and a choice you make afterwards stays (Mods > Car Surface FX > Skid marks).
+- **Dents on metal panels** (from 0.4.5; Panel damage is off by default: Mods > Car Surface FX > Crash, "Panel damage (test)"): a hit draws a dent with fewer paint chips where it was chips that read as dirt. Real hits leave marks and a reset that repairs the car takes them off (seen in the game).
+- Built, not yet tested in the game: skid marks on dirt, gravel and snow at the new distance, a very fast camera turn (can leave a gap for up to a tenth of a second), how the dent reads on red and white paint, a side swipe, a pole hit, carbon and fibreglass panels, and marks after a recovery that keeps the damage.
+- Street Legal's known issue is unchanged: Wet roads and walls is off by default since 0.6.1; with it on, a heavy-rain crash can still happen at High graphics.
+
 ## 0.10.4: Part Wear (new), Wrench Works 1.8.5, Drivers 1.6.2, Car Surface FX 0.4.4
 
 For BeamNG 0.40. Street Legal 0.6.1 and Driver Injuries 0.2.1 are as in 0.10.3. Remove the separate Wrench Works, Street Legal, Drivers, Driver Injuries, Car Surface FX and Part Wear mods before installing this one. A pre-release for bug-checking.
