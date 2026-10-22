@@ -1,5 +1,14 @@
 # Changelog: Wrench Complete
 
+## 0.11.0: Street Legal 0.8.0, Car Surface FX 0.4.11, Part Wear 0.1.2
+
+For BeamNG 0.40. A pre-release for bug-checking. Wrench Works 1.8.6, Drivers 1.6.3 and Driver Injuries 0.2.2 are as in 0.10.9.
+
+- **Street Legal 0.8.0** (its own changelog has the full list and says what has not been seen in the game yet): weekly costs (garage rent and car storage), servicing and wear with a wear-rate setting, contracts on the Jobs board, tier perks for every boss you beat, danger zones, speed traps and zones, cinematic moments for starting the night and the day, and used-car checks. New careers start with the new economy on; an older save is asked once. Every part has its switch in ESC > Mods > Street Legal.
+- **Car Surface FX 0.4.11:** the cold hardening of tyre rubber by compound, a scrape at the foot of a wall (a test switch), and a slot-statistics read-out for tracking down the wet-world slot problem. Not seen in the game yet.
+- **Part Wear 0.1.2:** from the first in-game run: front springs on strut cars, clutch wear on a dual-clutch car and anti-roll bars are found; leaf springs, the master cylinder and the fluid are found without a measurable effect yet, and the page says so. Part Wear is still off until you switch it on.
+- Known issues: Street Legal's Wet roads and walls is off by default; with it on, a heavy-rain crash can still happen at High graphics.
+
 ## 0.10.9: Street Legal 0.7.2 (a freeze fixed), Car Surface FX 0.4.10
 
 For BeamNG 0.40. Street Legal 0.7.2 and Car Surface FX 0.4.10 are the parts that changed; Wrench Works 1.8.6, Drivers 1.6.3, Driver Injuries 0.2.2 and Part Wear 0.1.1 are as in 0.10.8. A pre-release for bug-checking. **Use 0.10.9 instead of 0.10.8 or earlier if you play with the police.**

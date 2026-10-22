@@ -1,6 +1,6 @@
 # Wrench Complete
 
-Version 0.10.9, a pre-release for bug-checking. Works with BeamNG 0.40.
+Version 0.11.0, a pre-release for bug-checking. Works with BeamNG 0.40.
 
 A complete street racing career for BeamNG.drive on **West Coast USA**, in one mod.
 

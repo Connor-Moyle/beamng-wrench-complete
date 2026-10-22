@@ -34,7 +34,7 @@
     "tagline": "The complete West Coast USA street racing career, garage and drivers in one mod",
     "description": "Everything in one mod: a hands-on garage with a working lift, a street racing career from a junkyard wreck to the top of the ROC, drivers in every car with injuries in crashes, rain, dirt and scratches on the car body, and parts that wear out (off until you switch it on). All settings are in ESC > Mods. Plays on West Coast USA. Remove the separate Wrench Works, Street Legal, Drivers, Car Surface FX and Part Wear mods before installing this one.",
     "author": "Connor Moyle",
-    "version": "0.10.9",
+    "version": "0.11.0",
     "game_version": "0.40",
     "category": "mods_of_mods"
    }
@@ -70,7 +70,7 @@
    "id": "street_legal",
    "title": "Wrench Works: Career",
    "src": "C:/Dev/BeamNG Street Legal/mod",
-   "pin": "v0.7.2",
+   "pin": "v0.8.0",
    "zip": "street_legal.zip",
    "info": "mod_info/street_legal/info.json",
    "versioncheck": true,
@@ -80,7 +80,8 @@
    "_why_exclude": "SLRR's own art is copied from each player's install by tools/slrr_ui.py, never shipped",
    "exclude": [
     "ui/modModules/slHud/slrr/**",
-    "street_legal/wallpaper.ps1"
+    "street_legal/wallpaper.ps1",
+    "lua/ge/extensions/sl/debugCars.lua"
    ],
    "_modes_why": "billboards: atlas (the default) ships the ten full atlases; overlay (release.py --billboards overlay) ships only our own tiles, for the case the BeamNG moderators refuse atlases that carry the game own ads",
    "modes": {"billboards": {"atlas": ["art/street_legal/billboards/tiles/*"], "overlay": ["art/street_legal/billboards/*.jpg"]}}
@@ -115,7 +116,7 @@
    "id": "car_surface_fx",
    "title": "Car Surface FX",
    "src": "C:/Dev/BeamNG Car Surface FX/mod",
-   "pin": "v0.4.10",
+   "pin": "v0.4.11",
    "zip": "car_surface_fx.zip",
    "info": "mod_info/carSurfaceFx/info.json",
    "versioncheck": false,
@@ -136,7 +137,7 @@
    "id": "part_wear",
    "title": "Wrench Works: Part Wear",
    "src": "C:/Dev/SLRR Part Wear/mod",
-   "pin": "v0.1.1",
+   "pin": "v0.1.2",
    "zip": "part_wear.zip",
    "info": "mod_info/slrr_part_wear/info.json",
    "versioncheck": false,
